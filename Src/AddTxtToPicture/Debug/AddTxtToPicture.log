@@ -1,0 +1,44 @@
+﻿生成启动时间为 2019/6/6 15:48:09。
+     1>项目“D:\study\AddTxtToPicture\AddTxtToPicture\AddTxtToPicture.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\AddTxtToPicture.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\SourceCode\Libraries\wxWidgets3.0/include /IC:\SourceCode\Libraries\wxWidgets2.8\additions/include /IC:\SourceCode\Libraries\wxWidgets3.0/contrib/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D STRICT /D __WXMSW__ /D __WX__ /D _DEBUG /D __WXDEBUG__ /D _WINDOWS /D wxUSE_UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"C:\SourceCode\Libraries\wxWidgets3.0/include/wx/wxprec.h" /Fp"Debug\/AddTxtToPicture.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FIC:\SourceCode\Libraries\wxWidgets3.0/include/wx/wxprec.h /FIC:\SourceCode\Libraries\wxWidgets3.0/include/msvc/wx/setup.h /analyze- /errorReport:prompt AddTxtToPicture.cpp AddTxtToPictureAbout.cpp AddTxtToPictureFrame.cpp AddTxtToPicturePanel.cpp AddTxtToPicture_GUI.cpp MyDirTraverser.cpp MyThread.cpp fileversion.cpp
+         fileversion.cpp
+         MyThread.cpp
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(37): error C2664: “MyDirTraverser::MyDirTraverser(wxArrayString &)”: 不能将参数 1 从“wxArrayString *”转换为“wxArrayString &”
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(38): error C2664: “wxDir::Traverse”: 不能将参数 1 从“MyDirTraverser”转换为“wxDirTraverser &”
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(58): warning C4138: 在注释外找到“*/”
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(58): error C2059: 语法错误:“/”
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(106): error C2259: “wxDirTraverser”: 不能实例化抽象类
+                 由于下列成员:
+                 “wxDirTraverseResult wxDirTraverser::OnFile(const wxString &)”: 是抽象的
+                 c:\sourcecode\libraries\wxwidgets3.0\include\wx\dir.h(61) : 参见“wxDirTraverser::OnFile”的声明
+                 “wxDirTraverseResult wxDirTraverser::OnDir(const wxString &)”: 是抽象的
+                 c:\sourcecode\libraries\wxwidgets3.0\include\wx\dir.h(66) : 参见“wxDirTraverser::OnDir”的声明
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(107): error C2664: “wxDir::Traverse”: 不能将参数 1 从“wxString”转换为“wxDirTraverser &”
+     1>d:\study\addtxttopicture\addtxttopicture\mythread.cpp(108): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+         MyDirTraverser.cpp
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(11): error C2065: “dirRout”: 未声明的标识符
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(15): error C2259: “wxDirTraverser”: 不能实例化抽象类
+                 由于下列成员:
+                 “wxDirTraverseResult wxDirTraverser::OnFile(const wxString &)”: 是抽象的
+                 c:\sourcecode\libraries\wxwidgets3.0\include\wx\dir.h(61) : 参见“wxDirTraverser::OnFile”的声明
+                 “wxDirTraverseResult wxDirTraverser::OnDir(const wxString &)”: 是抽象的
+                 c:\sourcecode\libraries\wxwidgets3.0\include\wx\dir.h(66) : 参见“wxDirTraverser::OnDir”的声明
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(16): error C2664: “wxDir::Traverse”: 不能将参数 1 从“wxString”转换为“wxDirTraverser &”
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(17): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(23): error C2065: “wxFile”: 未声明的标识符
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(23): error C2146: 语法错误: 缺少“;”(在标识符“File”的前面)
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(23): error C3861: “File”: 找不到标识符
+     1>d:\study\addtxttopicture\addtxttopicture\mydirtraverser.cpp(24): error C2065: “filenaame”: 未声明的标识符
+         AddTxtToPicture_GUI.cpp
+         AddTxtToPicturePanel.cpp
+         AddTxtToPictureFrame.cpp
+         AddTxtToPictureAbout.cpp
+         AddTxtToPicture.cpp
+     1>已完成生成项目“D:\study\AddTxtToPicture\AddTxtToPicture\AddTxtToPicture.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.07
